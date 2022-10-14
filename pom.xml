@@ -9,4 +9,12 @@
     <artifactId>netty-websocket</artifactId>
     <name>netty-websocket</name>
     <version>0.0.1-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>1.5.21.RELEASE</version>
+        </dependency>
+    </dependencies>
 </project>
